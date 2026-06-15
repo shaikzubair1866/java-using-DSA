@@ -7,3 +7,18 @@ Basics of java
 \oops
 \multithreading
 \array
+
+
+
+
+
+DSA:
+Array
+Linkedlist
+Stack
+Queue
+Trees
+Graph
+Sorting Techniques
+Searching Techniques
+Algorithm
