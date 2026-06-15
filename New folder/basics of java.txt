@@ -1,0 +1,106 @@
+Introduction to Java
+Java is a high-level, object-oriented, platform-independent programming language.
+Developed by James Gosling in 1995.
+Used for developing web, desktop, mobile, and enterprise applications.
+Why Java is a High-Level Language?
+
+Java is called a high-level language because:
+
+Easy to read and write.
+Uses English-like syntax.
+Hides hardware and memory details.
+Machine-independent.
+
+Example:
+System.out.println("Hello");
+Features of Java
+Simple
+Object-Oriented
+Platform Independent
+Secure
+Robust
+Portable
+Multithreaded
+Distributed
+Dynamic
+Security in Java
+Java provides high security through JVM.
+No direct memory access.
+Bytecode verification.
+Authentication and access control mechanisms.
+Java Virtual Machine (JVM)
+Definition
+
+JVM (Java Virtual Machine) is a virtual machine that executes Java bytecode.
+
+Functions
+Loads bytecode.
+Verifies bytecode.
+Converts bytecode into machine code.
+Executes the program.
+Advantage
+Makes Java platform-independent.
+Java Runtime Environment (JRE)
+Definition
+
+JRE provides the environment required to run Java applications.
+
+Contains
+JVM
+Java class libraries
+Supporting files
+Purpose
+Runs Java programs.
+Java Development Kit (JDK)
+Definition
+
+JDK is a software package used to develop Java applications.
+
+Contains
+JRE
+Compiler (javac)
+Debugger
+Development tools
+Purpose
+Writing, compiling, and running Java programs.
+Relationship between JDK, JRE, and JVM
+JDK
+ └── JRE
+      └── JVM
+JDK = Development + Runtime Tools
+JRE = Runtime Environment
+JVM = Executes Bytecode
+Java Program Execution
+Source Code (.java)
+        ↓
+Compiler (javac)
+        ↓
+Bytecode (.class)
+        ↓
+JVM
+        ↓
+Machine Code
+        ↓
+Output
+Structure of Java Program
+class Main {
+    public static void main(String[] args) {
+        System.out.println("Hello World");
+    }
+}
+Explanation
+class Main → Class declaration
+main() → Entry point of program
+System.out.println() → Prints output
+
+Short Exam Definitions
+
+Java: A high-level, object-oriented, platform-independent programming language.
+
+JVM: Executes Java bytecode and converts it into machine code.
+
+JRE: Provides the environment required to run Java programs.
+
+JDK: A toolkit used to develop, compile, and run Java applications.
+
+High-Level Language: A language that is easy for humans to read and write and hides machine-level details.
