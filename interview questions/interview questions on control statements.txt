@@ -1,0 +1,125 @@
+Java Control Statements – Interview Questions & Answers
+1. What are control statements in Java?
+
+Answer:
+Control statements are used to control the flow of execution of a program. They decide which statements execute and how many times they execute.
+
+Types:
+
+Selection Statements
+Iteration Statements
+Jump Statements
+2. What are the different types of control statements?
+
+Answer:
+
+Selection Statements – if, if-else, else-if, switch
+Iteration Statements – for, while, do-while
+Jump Statements – break, continue, return
+3. What is an if statement?
+
+Answer:
+The if statement executes a block of code only when the specified condition is true.
+
+if(age >= 18){
+    System.out.println("Eligible");
+}
+4. What is the difference between if and if-else?
+
+Answer:
+
+if executes code only when the condition is true.
+if-else executes one block if true and another block if false.
+5. What is an else-if ladder?
+
+Answer:
+An else-if ladder is used to check multiple conditions one after another.
+
+if(marks >= 90)
+    System.out.println("A");
+else if(marks >= 75)
+    System.out.println("B");
+else
+    System.out.println("C");
+6. What is a switch statement?
+
+Answer:
+A switch statement selects one block of code from multiple options based on the value of an expression.
+
+7. What is the advantage of switch over if-else?
+
+Answer:
+
+Easier to read.
+Faster for multiple choices.
+Reduces lengthy if-else ladders.
+8. What is a loop?
+
+Answer:
+A loop repeatedly executes a block of code until a condition becomes false.
+
+9. What are the types of loops in Java?
+
+Answer:
+
+for loop
+while loop
+do-while loop
+10. What is a for loop?
+
+Answer:
+A for loop is used when the number of iterations is known in advance.
+
+for(int i=1; i<=5; i++)
+11. What is a while loop?
+
+Answer:
+A while loop executes as long as the condition is true.
+
+while(i <= 5)
+12. What is a do-while loop?
+
+Answer:
+A do-while loop executes the block at least once because the condition is checked after execution.
+
+13. Difference between while and do-while?
+while	do-while
+Condition checked first	Condition checked last
+May execute zero times	Executes at least once
+14. What is a break statement?
+
+Answer:
+The break statement immediately terminates a loop or switch statement.
+
+break;
+15. What is a continue statement?
+
+Answer:
+The continue statement skips the current iteration and moves to the next iteration.
+
+continue;
+16. What is a return statement?
+
+Answer:
+The return statement exits from a method and optionally returns a value.
+
+return value;
+17. Can we use break in a switch statement?
+
+Answer:
+Yes. break is used to stop execution after a matching case.
+
+18. What happens if break is omitted in switch?
+
+Answer:
+Control falls through to the next case and executes subsequent cases until a break is encountered.
+
+19. Which loop is best when the number of iterations is known?
+
+Answer:
+The for loop.
+
+20. Which loop executes at least one time?
+
+Answer:
+The do-while loop.
